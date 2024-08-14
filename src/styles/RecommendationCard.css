@@ -1,0 +1,38 @@
+.Recommend-container {
+  width: 100%;
+}
+.Recommend-info {
+  height: 25rem;
+  margin-top: 15px;
+  border-radius: 1rem;
+  border: 2px solid var(--color-white);
+  background: linear-gradient(
+    178.1deg,
+    rgba(0, 0, 0, 0.4) 8.5%,
+    rgba(0, 0, 0, 0.55) 82.4%
+  );
+  backdrop-filter: blur(0.2rem);
+  p {
+    padding: 1rem;
+  }
+}
+.Recommend-Title {
+  background-color: var(--color-black);
+  border: 2px solid var(--color-white);
+  border-radius: 1rem;
+  color: var(--color-white);
+
+  padding-block: 0.4rem;
+  p {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  div {
+    display: flex;
+  }
+  i {
+    font-size: 1.2rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+  }
+}

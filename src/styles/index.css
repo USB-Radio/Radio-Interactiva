@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  --color-main: #fd5f00;
+  --color-secondary: #0d1128;
+  --color-secondary-darker: #090b1b;
+  --color-body: #ffffff;
+  --color-black: #000000;
+  --color-white: #ffffff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+body {
+  background-color: var(--color-body);
+  min-height: 150vh;
+  background-color: var(--color-secondary-darker);
+}

@@ -1,0 +1,29 @@
+.socialnetwork-list {
+  position: fixed;
+  top: 32%;
+  right: 0;
+  z-index: 1;
+}
+.social-icons-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  background-color: var(--color-secondary);
+  box-shadow: 2px 0px 8px rgba(0, 0, 0, 0.4);
+}
+.icon-block {
+  background-color: var(--color-secondary);
+  padding-inline: 1rem;
+  padding-block: 1rem;
+  line-height: 1rem;
+  color: var(--color-white);
+  font-size: 2rem;
+  transition: 0.3s;
+  cursor: pointer;
+  a {
+    color: var(--color-white);
+  }
+}
+.icon-block:hover {
+  background-color: var(--color-main);
+}

@@ -1,0 +1,6 @@
+.div-section {
+  background-color: var(--color-white);
+  border-top: 2px solid var(--color-secondary);
+  border-bottom: 2px solid var(--color-secondary);
+  height: 6px;
+  width: 100%;

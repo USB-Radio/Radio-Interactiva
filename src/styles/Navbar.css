@@ -1,0 +1,132 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.top-navbar {
+  display: flex;
+  box-shadow: 2px 0px 8px rgba(0, 0, 0, 0.4);
+}
+.follow-box {
+  display: flex;
+  align-items: center;
+  background-color: var(--color-main);
+  color: var(--color-white);
+  padding-left: 4rem;
+  text-shadow: 1px 1px 5px rgb(27, 27, 27, 0.5);
+  p {
+    width: 100px;
+  }
+}
+.follow-icons {
+  display: flex;
+  padding-top: 0.4rem;
+  margin-inline: 1rem;
+  i {
+    font-size: 1.5rem;
+    margin-inline: 0.6rem;
+  }
+  a {
+    text-decoration: none;
+    color: var(--color-white);
+  }
+}
+.info-box {
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-block: 0.3rem;
+  padding-right: 4rem;
+  flex-wrap: nowrap;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.info-box::before {
+  content: "";
+  position: absolute;
+  left: -20%;
+  top: 50%;
+  transform: translateY(-50%) rotate(50deg);
+  background-color: var(--color-main);
+  width: 40%;
+  height: 100%;
+}
+.info-box-section {
+  display: flex;
+  align-items: center;
+  margin-inline: 0.5rem;
+  font-size: 0.9rem;
+  i {
+    font-size: 1.7rem;
+    margin-inline: 1rem;
+  }
+}
+.bold {
+  font-weight: bold;
+}
+.navbar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgba(255, 255, 255, 0.98);
+  img {
+    width: 17rem;
+    height: auto;
+  }
+}
+.navbar-links {
+  display: flex;
+  align-items: center;
+  text-shadow: 1px 1px 2px rgb(27, 27, 27, 0.1);
+
+  i {
+    font-size: 1.4rem;
+    margin-right: 0.6rem;
+  }
+  a {
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--color-black);
+    font-size: 1.1rem;
+  }
+}
+.navbar-cont {
+  margin-inline: 0.8rem;
+}
+.navbar-cont:hover a,
+.navbar-cont:hover i {
+  color: var(--color-main);
+  transition: 0.2s;
+}
+.login-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-inline: 1rem;
+  padding-block: 0.9rem;
+  background-color: var(--color-main);
+  color: var(--color-white);
+  gap: 0.5rem;
+  width: 130px;
+  transition: 0.3s;
+  box-shadow: 2px 0px 8px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  i {
+    font-size: 1.2rem;
+  }
+}
+.navbar-login-search {
+  display: flex;
+  align-items: center;
+  .search {
+    font-size: 1.4rem;
+    cursor: pointer;
+  }
+}
+.login-button:hover {
+  background-color: var(--color-secondary);
+}

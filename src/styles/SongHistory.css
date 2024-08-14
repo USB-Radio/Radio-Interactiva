@@ -1,0 +1,100 @@
+.history {
+  display: flex;
+  align-items: center;
+}
+.history-songs-info {
+  margin-top: 15px;
+  border: 2px solid var(--color-white);
+  border-radius: 1rem;
+  background: linear-gradient(
+    178.1deg,
+    rgba(13, 17, 40, 0.4) 8.5%,
+    rgba(13, 17, 40, 0.55) 82.4%
+  );
+  backdrop-filter: blur(0.2rem);
+}
+.history-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  border-bottom: 4px solid var(--color-secondary);
+  border-radius: 1rem;
+}
+.history-title {
+  display: flex;
+  align-items: center;
+  padding-left: 0.7rem;
+  padding-block: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 10px;
+  border: 2px solid var(--color-white);
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+
+  i {
+    font-size: 1rem;
+    margin-right: 0.8rem;
+  }
+}
+.history-songs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 0.8rem;
+}
+.history-song-data {
+  display: flex;
+  align-items: center;
+
+  span {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-inline: 0.9rem;
+    text-shadow: 2px 2px 6px rgba(145, 145, 145, 0.6);
+    color: var(--color-white);
+  }
+  .history-art {
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    background-color: var(--color-black);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.5);
+    transition: 0.2s;
+  }
+  .history-art:hover {
+    transform: scale(1.1);
+  }
+  .history-titlesong {
+    width: 140px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--color-white);
+    text-shadow: 2px 2px 6px rgba(145, 145, 145, 0.3);
+  }
+  .history-artist-content {
+    padding-left: 0.8rem;
+  }
+}
+.history-artistsong {
+  width: 140px;
+  font-size: 1rem;
+  margin-top: -0.1rem;
+  color: var(--color-white);
+}
+.history-album {
+  width: 190px;
+  margin-inline: 10px;
+  /* font-weight: 700; */
+  font-style: italic;
+  font-size: 0.96rem;
+  /* text-shadow: 2px 2px 4px rgba(209, 62, 25, 0.3); */
+  color: var(--color-white);
+}
+.history-time {
+  padding-right: 2rem;
+  font-size: 1rem;
+  /* font-weight: 600; */
+  color: var(--color-white);
+}
