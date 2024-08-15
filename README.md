@@ -87,7 +87,7 @@ El componente principal que gestiona el flujo de datos. Realiza solicitudes a la
 
 ## Flujo de Datos
 
-1. **Obtención de Datos**: `LayoutContent` solicita datos a la API de AzuraCast.
+1. **Obtención de Datos**: `LayoutContent` solicita datos a la API de AzuraCast cada 10 segundos.
 2. **Procesamiento**: Los datos son procesados y formateados en `RadioData`.
 3. **Renderización**: Los datos procesados se envían a los componentes para su visualización y manejo.
 
