@@ -31,11 +31,11 @@ export function LayoutContent() {
       <div className="layout-muplayer">
         <AudioPlayer radioData={radioData} />
       </div>
-      <LineSection />
+
       <div className="layout-carrousel">
         <Programs />
       </div>
-      <LineSection />
+
       <div className="layout-songhistory">
         <RecommendationCard />
         <SongHistory radioData={radioData} />
@@ -43,7 +43,6 @@ export function LayoutContent() {
       <div className="layout-footer">
         <Footer radioData={radioData} />
       </div>
-      <LineSection />
     </section>
   );
 }

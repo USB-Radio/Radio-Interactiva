@@ -5,6 +5,7 @@
   z-index: 1;
 }
 .top-navbar {
+  user-select: none;
   display: flex;
   box-shadow: 2px 0px 8px rgba(0, 0, 0, 0.4);
 }

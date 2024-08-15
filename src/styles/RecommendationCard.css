@@ -4,6 +4,7 @@
 .Recommend-info {
   height: 25rem;
   margin-top: 15px;
+  user-select: none;
   border-radius: 1rem;
   border: 2px solid var(--color-white);
   background: linear-gradient(
@@ -17,6 +18,7 @@
   }
 }
 .Recommend-Title {
+  user-select: none;
   background-color: var(--color-black);
   border: 2px solid var(--color-white);
   border-radius: 1rem;

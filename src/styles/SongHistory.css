@@ -3,6 +3,7 @@
   align-items: center;
 }
 .history-songs-info {
+  user-select: none;
   margin-top: 15px;
   border: 2px solid var(--color-white);
   border-radius: 1rem;
@@ -20,6 +21,7 @@
   border-radius: 1rem;
 }
 .history-title {
+  user-select: none;
   display: flex;
   align-items: center;
   padding-left: 0.7rem;

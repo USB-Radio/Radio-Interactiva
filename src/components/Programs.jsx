@@ -24,7 +24,7 @@ export function Programs() {
   return (
     <div className="gallery-wrap">
       <div className="gallery-title">
-        <p>Conoce nuestras series / programas</p>
+        <p>Conoce nuestros programas</p>
         <i>{<FaCommentDots />}</i>
       </div>
       <div className="gallery" ref={galleryRef}>

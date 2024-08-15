@@ -56,6 +56,7 @@ export function AudioPlayer({ radioData }) {
     }
     fetchData();
   }, [radioData]); // <-- Actualiza el estado unicamente cuando radioData cambie.
+
   useEffect(() => {
     if (audioRef.current) {
       audioRef.current.volume = volume;
@@ -63,6 +64,9 @@ export function AudioPlayer({ radioData }) {
   }, [volume]);
   const handleVolumeChange = (e) => {
     setVolume(e.target.value);
+  };
+  const handleSliderChange = (e) => {
+    setSliderVal(e.target.value);
   };
   const handleButtonClick = () => {
     const audio = audioRef.current;
@@ -139,6 +143,7 @@ export function AudioPlayer({ radioData }) {
                 max={sliderMax}
                 value={sliderVal}
                 className="seek-bar music"
+                onChange={handleSliderChange}
               />
               <div className="muplayer-timers">
                 <span className="current-time">{startTime}</span>
