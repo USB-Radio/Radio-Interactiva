@@ -1,8 +1,11 @@
-# React + Vite
+# Proyecto aun pendiente en fase de pruebas.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Procesos pendientes:
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. API de reconocimiento musical (Identificar la cancion para extraer metadata {
+   informacion del artista, servicios de streaming y contenido relevante o artistas
+   similares.
+   })
+2. La metadata puede ser entragada por una id key de musicbrainz ó tambien desde
+   la API de LastFM.
+3. Generar una pequeña base de datos que guarde los usuarios registrados en el sitio.

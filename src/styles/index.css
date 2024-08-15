@@ -15,6 +15,6 @@
 }
 body {
   background-color: var(--color-body);
-  min-height: 150vh;
+  min-height: 160vh;
   background-color: var(--color-secondary-darker);
 }

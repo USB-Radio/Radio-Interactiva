@@ -24,6 +24,7 @@
   padding-left: 1.2rem;
   background-color: var(--color-secondary);
   color: var(--color-white);
+  box-shadow: 2px 0px 8px rgba(0, 0, 0, 0.4);
 }
 .container-footer-specs {
   display: flex;

@@ -96,11 +96,19 @@
   }
 }
 .navbar-cont {
-  margin-inline: 0.8rem;
+  margin-inline: 0.2rem;
+  /* background-color: red; */
+  padding-block: 0.72rem;
+  padding-inline: 0.8rem;
+  transition: 0.2s;
+}
+.navbar-cont:hover {
+  background-color: var(--color-secondary);
+  cursor: pointer;
 }
 .navbar-cont:hover a,
 .navbar-cont:hover i {
-  color: var(--color-main);
+  color: var(--color-white);
   transition: 0.2s;
 }
 .login-button {

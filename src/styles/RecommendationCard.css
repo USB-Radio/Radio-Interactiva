@@ -2,6 +2,7 @@
   width: 100%;
 }
 .Recommend-info {
+  box-shadow: 2px 0px 8px rgba(0, 0, 0, 0.9);
   height: 25rem;
   margin-top: 15px;
   user-select: none;
@@ -18,6 +19,7 @@
   }
 }
 .Recommend-Title {
+  box-shadow: 2px 0px 8px rgba(0, 0, 0, 0.9);
   user-select: none;
   background-color: var(--color-black);
   border: 2px solid var(--color-white);

@@ -13,6 +13,7 @@
     rgba(13, 17, 40, 0.55) 82.4%
   );
   backdrop-filter: blur(0.2rem);
+  box-shadow: 2px 0px 8px rgba(0, 0, 0, 0.9);
 }
 .history-container {
   max-width: 1000px;
@@ -32,6 +33,7 @@
   border: 2px solid var(--color-white);
   background-color: var(--color-secondary);
   color: var(--color-white);
+  box-shadow: 2px 0px 8px rgba(0, 0, 0, 0.9);
 
   i {
     font-size: 1rem;
