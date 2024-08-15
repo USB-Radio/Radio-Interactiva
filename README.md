@@ -54,6 +54,43 @@ información de la radio.
 - Información en tiempo real sobre la canción actual y el artista.
 - Control de volumen y reproducción.
 
+Funcionamiento del Código Actual
+
+## Estructura del Proyecto
+
+El proyecto está organizado de la siguiente manera:
+
+### Carpeta `utils`
+
+Contiene funcionalidades y procesos adicionales, como operaciones matemáticas y funciones de `fetch`. Estas utilidades ayudan en el manejo de datos y la integración con la API.
+
+### Componente `LayoutContent`
+
+El componente principal que gestiona el flujo de datos. Realiza solicitudes a la API utilizando la función definida en `Fetch.js` para obtener información de AzuraCast.
+
+1. **Solicitud de Datos**: Utiliza `Fetch.js` para realizar solicitudes HTTP a la API y recuperar datos.
+
+2. **Procesamiento de Datos**: Los datos obtenidos son procesados mediante la función `RadioData`, que formatea y extrae la información necesaria de la respuesta de la API.
+
+   ![Procesamiento de datos](/src/img/Interfaz/3.PNG)
+
+3. **Distribución de Datos**: La información procesada es distribuida a los siguientes componentes:
+
+   - `AudioPlayer`
+   - `Programs`
+   - `SongHistory`
+   - `Footer`
+
+   Estos componentes utilizan los datos recibidos para renderizar la interfaz y proporcionar funcionalidades específicas.
+
+   ![Envío de información](/src/img/Interfaz/4.PNG)
+
+## Flujo de Datos
+
+1. **Obtención de Datos**: `LayoutContent` solicita datos a la API de AzuraCast.
+2. **Procesamiento**: Los datos son procesados y formateados en `RadioData`.
+3. **Renderización**: Los datos procesados se envían a los componentes para su visualización y manejo.
+
 ## Secciones Pendientes
 
 En esta sección se describen las partes de la aplicación que aún están en desarrollo o pendientes de implementación.
