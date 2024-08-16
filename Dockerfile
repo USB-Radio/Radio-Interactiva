@@ -10,11 +10,14 @@ COPY package*.json ./
 # Instalar las dependencias
 RUN npm install
 
-# Copiar todo el código fuente de la aplicación
-COPY . .
+# Construir la aplicación
+RUN npm run build
 
-# Exponer el puerto que usará la aplicación (Vite usualmente usa el puerto 5173)
+# Instalar un servidor estático para servir la aplicación (opcional)
+RUN npm install -g serve
+
+# Exponer el puerto que usará la aplicación (puerto 3000 en este caso)
+EXPOSE 3000
 EXPOSE 5173
-
 # Comando por defecto para iniciar la aplicación
-CMD ["npm", "run", "dev"]
+CMD ["serve", "-s", "dist"]
