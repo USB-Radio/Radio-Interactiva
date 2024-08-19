@@ -14,6 +14,7 @@ export function LayoutContent() {
   const [radioData, setRadioData] = useState(null);
   // Llamado a la API de AzuraCast (Radio)
   const url = "https://a6.asurahosting.com/api/nowplaying/usb_radio";
+
   useEffect(() => {
     const fetchData = async () => {
       const data = await Fetch.getAll(url);
